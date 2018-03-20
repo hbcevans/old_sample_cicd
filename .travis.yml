@@ -33,3 +33,6 @@ notifications:
       - secure: "jnskgirnslffffnehwaqyxolfugbhld"
     on_success: always
     on_failure: always
+
+after_success:
+  - ./deploy.sh
